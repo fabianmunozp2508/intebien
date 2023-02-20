@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/intebien-app",
+            "outputPath": "build",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -97,8 +97,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "intebien-app:build:production",
+            "firebaseProject": "intebien2",
+            "firebaseHostingSite": "intebien2"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "919235d5-d810-43ca-b55e-676a2178bdf1"
   }
 }
