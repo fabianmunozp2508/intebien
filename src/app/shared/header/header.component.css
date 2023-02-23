@@ -47,7 +47,7 @@ ul {
 }
 
 .main-nav ul li a:hover {
-  border-bottom: 2px solid #262626;
+  border-bottom: 2px solid #1226AA;
 }
 
 .main-nav ul.main-menu {
@@ -70,7 +70,7 @@ ul {
   border: 0;
   font-weight: bold;
   padding: 10px 20px;
-  background: #262626;
+  background: #1226AA;
   color: #fff;
   font-size: 15px;;
 }
