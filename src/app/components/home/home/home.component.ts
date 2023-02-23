@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+//import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
