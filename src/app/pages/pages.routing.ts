@@ -9,6 +9,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./child-routes.module').then((m) => m.ChildRoutesModule),
   },
+  
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
