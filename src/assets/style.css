@@ -46,14 +46,14 @@
 ---------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 :root {
-	--heading-color: #292929;
+	--heading-color: #1226AA;
 	--bg-color: #E3E3E3;
 	--bg-color-2: #f9f9f9;
 	--bg-color-3: #EEEEEE;
 	--body-color: #686868;
-	--theme-color: #FEBC34;
-	--theme-color-2: #F6475F;
-	--theme-color-3: #2024b0;
+	--theme-color: #FFB600;
+	--theme-color-2: #f7f7f7;
+	--theme-color-3: #1226AA;
 	--theme-color-sec: #255dff;
 	--white-color: #fff;
 	--black-color: #000;
@@ -5016,7 +5016,7 @@ ul.author-list li:last-child {
 	content: '';
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0,0,0,.8);
+	background-color: #1226AA;
 	top: 0;
 	left: 0;
 	z-index: -1;
@@ -5088,7 +5088,7 @@ ul.author-list li:last-child {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #4d5749;
     background-color: #FCFCFC;
     border: 1px solid #EFEFEF;
     border-radius: 3px;

@@ -6,7 +6,7 @@
 
 
 a {
-  color: #262626;
+  color: #1226AA;
   text-decoration: none;
 }
 
@@ -85,8 +85,11 @@ ul {
 
 .dark .btn {
   background: #f4f4f4;
-  color: #333;
+  color: #1226AA;
 }
 .logo{
 width: 30%;
 }
+ div.menu-bg{
+background-color: #1226AA;
+ }
